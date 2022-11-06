@@ -1,0 +1,69 @@
+What is TypeScript?
+- TypeScript is a strongly typed programming language that builds on javascript.
+- TypeScript developed and maintained by microsoft.
+- TypeScript is javascript with types.
+- TypeScript and features to javascript without changing it.
+
+Why we need TypeScript?
+- Detect errors without running the code "Static type checking"
+- Analyze the code as you type
+- Save some unit test as the error show while writing
+- Every JS file is valid TS file
+- Will help you when you write React, Vue, Angular Apps
+- Gives you the missing features in JS like "Interfaces, Generics, Decorators"
+
+How TypeScript works?
+- TypeScript compiler compile TS code into JavaScript code "This called Transpilation"
+- How about the new features? workaround
+
+What you need to know?
+- JavaScript Concepts
+-- Variables
+-- Arrays
+-- Objects
+-- Functions
+-- Conditions
+
+How you can use TypeScript?
+[1] - Install Nodejs
+[2] - Be Nodejs its installed "Check from terminal" node
+[3] - Install TypeScript
+[4] - Be TypeScript its installed "ckeck from terminal" tsc
+[5] - Create TS file
+[6] - Compile JS file
+[7] - Check TS Playground
+
+Statically vs Dynamically Typed Languages
+
+Statically Typed Language Like [Rust, C, C++]
+- Variables Types are static, once you declare it you cannot change
+- Type of a variable is known at compile time "do type checking at compile-time"
+--- Have better performance at run-time due to not needing to check types Dynamically
+- Error Detected Earlier
+
+Dynamically Typed Language Like [PHP, Python, JavaScript]
+- Variables types are dynamic, you can always change it
+- "Type checking at ececution-time"
+- Error can be detected after execution
+
+Type Annotations || Signature
+-- Indicate the data type of Variables
+-- Indicate the data type of functions input/output
+-- Objects, etc.
+
+- Why we use it?
+- Is it mandatory?
+- Waht happen if we didn't use it?
+
+Type Annotations with functions
+
+- noImplicitAny
+
+- noImplicitReturns
+--- Will Check All Code Paths In a function to ensure they return a value
+
+- noUnusedLocals
+--- Report errors on unused local variables
+
+- noUnusedParameters
+--- Report errors on unused parameters in function.
